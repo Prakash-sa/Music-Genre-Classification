@@ -115,7 +115,7 @@ const App=()=> {
 
           <input type="file" onChange={addFile} />
           {recording ? (
-            <button onClick={stopRecording}>Stop Recording</button>
+            <button className="text-3xl font-bold underline" onClick={stopRecording}>Stop Recording</button>
           ) : (
             <button onClick={startRecording}>Start Recording</button>
           )}
